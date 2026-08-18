@@ -221,7 +221,7 @@ streamlit run dashboard.py
 
 ### 🗺️ Roadmap
 
-```text
+
 [x] Phase 1 — Core Engine: Gmail monitoring, URL/Attachment extraction, VirusTotal integration, CrewAI agents, Gemini LLM, Streamlit dashboard.
 
 [ ] Phase 2 — Advanced Email Security: HTML email parsing, SPF/DKIM/DMARC validation, Sender/Domain reputation, BEC detection.
@@ -233,7 +233,6 @@ streamlit run dashboard.py
 [ ] Phase 5 — AI Security: Structured LLM outputs, Prompt-injection detection, Explainable evidence scoring.
 
 [ ] Phase 6 — Full SOC Platform: PostgreSQL storage, RBAC, SIEM integration, MITRE ATT&CK mapping.
-```
 
 ---
 
@@ -268,7 +267,7 @@ Areas of Interest:
 > `Cybersecurity` • `SOC Automation` • `AI/ML Security` • `Threat Intelligence` • `Phishing Detection` • `Malware Analysis`
 
 
-##🛡️ Built for Cybersecurity Research & AI-Powered SOC Automation
+## 🛡️ Built for Cybersecurity Research & AI-Powered SOC Automation
 
 *Detect • Investigate • Correlate • Respond*
 
