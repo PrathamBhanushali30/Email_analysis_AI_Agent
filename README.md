@@ -215,3 +215,60 @@ In a new terminal window, run:
 streamlit run dashboard.py
 ```
 > This launches a web UI displaying analyzed emails, URL/File intelligence, AI analysis, and final SOC verdicts loaded from `logs.json`.
+
+---
+
+
+### 🗺️ Roadmap
+
+```text
+[x] Phase 1 — Core Engine: Gmail monitoring, URL/Attachment extraction, VirusTotal integration, CrewAI agents, Gemini LLM, Streamlit dashboard.
+
+[ ] Phase 2 — Advanced Email Security: HTML email parsing, SPF/DKIM/DMARC validation, Sender/Domain reputation, BEC detection.
+
+[ ] Phase 3 — Advanced Threat Intelligence: Hybrid Analysis, YARA, URLhaus, AbuseIPDB, IOC enrichment.
+
+[ ] Phase 4 — Malware Analysis: Static file analysis, Entropy analysis, Macro detection, Sandbox integration.
+
+[ ] Phase 5 — AI Security: Structured LLM outputs, Prompt-injection detection, Explainable evidence scoring.
+
+[ ] Phase 6 — Full SOC Platform: PostgreSQL storage, RBAC, SIEM integration, MITRE ATT&CK mapping.
+```
+
+---
+
+
+### 🔒 Production Security Considerations
+
+This repository is currently a prototype/research implementation. Before production deployment, consider implementing:
+
+🔑 OAuth2: Secure Gmail authentication instead of App Passwords.
+
+📦 Sandboxing: Antivirus scanning and URL sandboxing.
+
+🛡️ Rate Limiting & Size Limits: Restrict attachment sizes and normalize filenames safely.
+
+🗄️ Database Logging: Replace logs.json with a structured database (e.g., PostgreSQL).
+
+🧠 Prompt Defenses: Add robust prompt-injection defenses and enforce structured LLM output schemas.
+
+> * Note: The AI verdict should be treated as an analyst assistance tool, not an unquestionable security decision. *
+
+---
+
+
+
+### 👨‍💻 Author
+
+*M.Tech — Artificial Intelligence & Data Science*
+
+*Specialization: Cybersecurity*
+
+Areas of Interest:
+> `Cybersecurity` • `SOC Automation` • `AI/ML Security` • `Threat Intelligence` • `Phishing Detection` • `Malware Analysis`
+
+
+##🛡️ Built for Cybersecurity Research & AI-Powered SOC Automation
+
+*Detect • Investigate • Correlate • Respond*
+
