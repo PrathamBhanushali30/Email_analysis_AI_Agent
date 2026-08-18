@@ -153,6 +153,7 @@ Email_analysis_AI_Agent/
 ```
 ---
 
+
 ### ⚡ Quick Start
 
 ## 1️⃣ Clone the Repository
@@ -206,8 +207,9 @@ The agent runs continuously (checking every ~60 seconds):
 
 ---
 
+
 ### 📊 Launch the SOC Dashboard
-<br>
+
 In a new terminal window, run:
 ```code
 streamlit run dashboard.py
