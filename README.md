@@ -187,6 +187,15 @@ EMAIL_PASS=<your-gmail-app-password>
 ALERT_EMAIL=<security-alert-recipient>
 ```
 
-```text
-⚠️ SECURITY WARNING: NEVER commit your .env file. Add .env to your .gitignore. If credentials were previously committed or shared publicly, rotate them immediately.
+> *⚠️ SECURITY WARNING: NEVER commit your .env file. Add .env to your .gitignore. If credentials were previously committed or shared publicly, rotate them immediately.*
+
+
+### ▶️ Running the Agent
+
+Start the continuous email-monitoring system:
+```code
+python run.py
 ```
+
+The agent runs continuously (checking every ~60 seconds):
+> `Checks Gmail` ➔ `Finds unread messages` ➔ `Analyzes email` ➔ `Scans URLs` ➔ `Hashes attachments` ➔ `Queries VirusTotal` ➔ `Runs CrewAI agents` ➔ `Generates SOC verdict` ➔ `Saves result` ➔ `Sends alert if required`
