@@ -1,0 +1,843 @@
+[
+  {
+    "email": "Hello we have an sale upto 50% on our shop tap on the link to claim the\r\ndiscount\r\n\r\nhttps://safelink.com\r\n\r\nalso we have attached the brocher for the same\r\n",
+    "url_analysis": {
+      "https://safelink.com": {}
+    },
+    "file_analysis": {
+      "046433abc1e4250f2ec25841e57e7ca863e7db1dd2166af830d3344de2fe3d03": {}
+    },
+    "final": "**Final Verdict: MALICIOUS**\n\nThis email is classified as **MALICIOUS**.\n\n**Summary of Evidence:**\n\n1.  **Classic Social Engineering Tactics:** The email aggressively employs multiple social engineering techniques designed to trick recipients. The promise of an \"upto 50% sale\" creates a strong sense of urgency and enticement, aiming to bypass critical thinking and provoke immediate action (clicking the link or opening the attachment).\n2.  **Grammatical and Spelling Errors:** The presence of several basic grammatical and spelling errors (\"an sale,\" \"upto,\" \"brocher\") is a hallmark of phishing attempts. Legitimate organizations typically maintain high standards of professional communication.\n3.  **Suspicious Link:** The embedded link `https://safelink.com` is generic and does not align with a specific, reputable retail brand. While it uses HTTPS, this only indicates encryption and does not guarantee the site's legitimacy or safety. Such generic domains are frequently used by phishers to host credential harvesting pages or malware downloads.\n4.  **Mention of Malicious Attachment:** The line \"also we have attached the brocher for the same\" is a significant red flag. Attachments, even those disguised as common document types like \"brochures,\" are a primary vector for malware delivery. Opening such an attachment would pose an immediate risk of system compromise.\n5.  **Lack of Personalization:** The generic greeting \"Hello\" further indicates a mass phishing campaign rather than a legitimate, targeted communication from a known entity.\n6.  **Inconclusive Technical Scans Do Not Mitigate Risk:** While the provided VirusTotal scans for the URL `https://safelink.com` and the file hash `046433abc1e4250f2ec25841e57e7ca863e7db1dd2166af830d3344de2fe3d03` returned empty results, this does not render the email safe. An empty scan result simply means the specific URL or hash has not yet been identified or reported as malicious by the scanning engines. The overwhelming evidence from the email's content and its social engineering characteristics clearly points to malicious intent, regardless of the current status of external threat intelligence feeds for its components.\n\nThe combination of these elements unequivocally demonstrates that this email is a deliberate attempt to deceive and compromise the recipient, making it a MALICIOUS threat."
+  },
+  {
+    "email": "Hello we have an sale upto 50% tap the link below to claim the offer\r\n\r\nhttps://www.amazon.in\r\n\r\nWe have attached the offer brocher also\r\n",
+    "url_analysis": {
+      "https://www.amazon.in": {}
+    },
+    "file_analysis": {
+      "046433abc1e4250f2ec25841e57e7ca863e7db1dd2166af830d3344de2fe3d03": {}
+    },
+    "final": "**Final Verdict: MALICIOUS**\n\nThis email is classified as **MALICIOUS**.\n\n**Summary of Evidence:**\n\n1.  **Multiple Grammatical and Spelling Errors:** The email contains glaring errors such as \"an sale,\" \"upto,\" and \"brocher.\" These are strong indicators that the email does not originate from a legitimate, professional entity like Amazon and are commonly found in phishing campaigns.\n2.  **Aggressive Social Engineering:** The email employs a highly enticing offer (\"sale upto 50%\") coupled with an urgent call to action (\"tap the link below to claim the offer\"). This tactic is designed to create a sense of urgency and bypass critical thinking, compelling the recipient to act impulsively.\n3.  **Deceptive Link Presentation:** While the displayed URL `https://www.amazon.in` appears legitimate, the presence of multiple other red flags strongly suggests that the actual embedded link would redirect to a malicious phishing site. Phishers frequently spoof legitimate URLs in the display text to trick users into clicking, while the underlying link points to a different, fraudulent domain designed for credential harvesting or malware distribution. Without inspecting the raw email source or hovering over the link (without clicking), its true destination cannot be confirmed as safe.\n4.  **Inclusion of a Malicious Attachment:** The explicit mention \"We have attached the offer brocher also\" is a critical red flag. Attachments, even those disguised as common document types like \"brochures,\" are a primary and highly effective vector for delivering malware (e.g., ransomware, info-stealers) to a user's system.\n5.  **Generic Greeting:** The use of a generic \"Hello\" rather than a personalized greeting further indicates a mass phishing attempt rather than a legitimate communication from a reputable company.\n6.  **Inconclusive Technical Scans Do Not Mitigate Risk:** The provided VirusTotal scan results for both the URL (`https://www.amazon.in`) and the file hash (`046433abc1e4250f2ec25841e57e7ca863e7db1dd2166af830d3344de2fe3d03`) were empty. This means that at the time of the scan, these specific components had not been identified or flagged as malicious by the scanning engines. However, the absence of a detection does *not* equate to safety. Given the overwhelming contextual and behavioral indicators of phishing and malware delivery within the email content itself, the empty scan results are likely due to the campaign being new, highly targeted, or employing evasion techniques, and do not override the strong evidence of malicious intent.\n\nThe combination of these highly suspicious elements, particularly the clear social engineering, grammatical errors, deceptive link, and the mention of an attachment, provides conclusive evidence that this email is a MALICIOUS attempt to compromise the recipient."
+  },
+  {
+    "email": "You have been selected for our 50% discount on our website. visit the\r\nwebsite to claim this offer: https://www.amazon.in\r\n\r\nwe have also attached the brocher for the claiming process\r\n",
+    "url_analysis": {
+      "https://www.amazon.in": {}
+    },
+    "file_analysis": {
+      "046433abc1e4250f2ec25841e57e7ca863e7db1dd2166af830d3344de2fe3d03": {}
+    },
+    "final": "MALICIOUS\n\nThe email is unequivocally malicious, designed as a phishing and malware distribution attempt. This verdict is based on the following combined evidence:\n\n1.  **Overwhelming Email-Based Malicious Indicators:** The email itself presents a \"High Risk\" due to multiple classic social engineering tactics and red flags. These include a \"too good to be true\" 50% discount offer from Amazon, a vague sender identity, a typographical error (\"brocher\"), and the explicit mention of an unexpected attachment for a \"claiming process.\" These are all strong indicators of a phishing scam aiming to trick the recipient into divulging information or executing malware.\n\n2.  **Deceptive Use of a Legitimate URL:** While the URL `https://www.amazon.in` itself returned an empty scan result, indicating it's a legitimate Amazon domain, its inclusion in this email is part of the malicious scheme. Phishers frequently leverage trusted brand names and legitimate URLs to lend credibility to their fraudulent offers. The email's context suggests the link could either be spoofed to redirect to a malicious site, or genuinely lead to Amazon where the user would then be guided through a fraudulent process (e.g., fake surveys, credential harvesting) related to the \"50% discount.\" Therefore, the legitimate nature of the URL does not negate the malicious intent of the email communication.\n\n3.  **Highly Suspicious Attachment Despite Empty Hash Scan:** The file hash `046433abc1e4250f2ec25841e57e7ca863e7db1dd2166af830d3344de2fe3d03` also returned an empty scan result. However, this does not render the attachment safe. Given the email's highly malicious nature, the attachment described as a \"brocher for the claiming process\" is a primary vector for malware delivery (e.g., zero-day threats, documents with malicious macros, or executables disguised as documents) or further phishing attempts. An empty scan result simply means the provided data did not contain explicit detections; it does not guarantee the file's safety, especially when it originates from an email with such clear malicious intent and is an unexpected communication.\n\nIn summary, despite the individual URL and hash scans not yielding explicit malicious flags, the overarching context of the email \u2014 characterized by sophisticated social engineering, a \"too good to be true\" offer, a deceptive use of a legitimate brand, and the presence of an unexpected attachment \u2014 conclusively points to a highly malicious attack. The lack of detection in isolated scans is insufficient to deem any part of this communication safe."
+  },
+  {
+    "email": "You have been selected for our 50% discount on our website. visit the\r\nwebsite to claim this offer: https://www.amazon.in\r\n\r\nwe have also attached the brocher for the claiming process\r\n",
+    "url_analysis": {
+      "https://www.amazon.in": {}
+    },
+    "file_analysis": {
+      "046433abc1e4250f2ec25841e57e7ca863e7db1dd2166af830d3344de2fe3d03": {}
+    },
+    "final": "MALICIOUS\n\n**Reasoning:**\n\nThe email exhibits multiple strong indicators of a phishing attempt, despite the displayed URL appearing legitimate and the VirusTotal scan for that specific URL showing no detections.\n\n1.  **Unsolicited and Deceptive Offer:** The claim of being \"selected\" for a 50% discount is a classic phishing lure designed to create a false sense of exclusivity and urgency. Legitimate, high-value offers are rarely extended unsolicited in this manner.\n2.  **Generic Greeting:** The absence of any personalization (e.g., recipient's name) is a common trait of mass-produced phishing emails.\n3.  **Suspicious Attachment:** The mention of an attached \"brochure for the claiming process\" is a significant red flag. Legitimate businesses typically provide such information via their official website or directly within the email, not through attachments, which are a primary vector for malware.\n4.  **Implied Urgency:** The phrase \"claim this offer\" suggests a time-sensitive opportunity, designed to bypass critical thinking and encourage immediate action.\n5.  **URL Spoofing (High Probability):** While `https://www.amazon.in` is a legitimate domain, phishing attacks frequently use display URL manipulation. The actual hyperlink embedded in the text could easily redirect to a malicious site masquerading as Amazon. The fact that the email itself is highly suspicious overrides the apparent legitimacy of the displayed URL. Without the ability to inspect the *actual* underlying hyperlink, this is a critical risk.\n6.  **Lack of Specificity:** The vagueness regarding the offer and the website's purpose further supports the likelihood of a malicious intent.\n\nWhile the VirusTotal scan for the displayed URL is clean, this does not negate the numerous other indicators of a phishing attempt. The presence of a suspicious attachment combined with the other social engineering tactics strongly suggests that the email's intent is malicious, aiming to either steal credentials via a spoofed website or deliver malware through the attachment. The risk is elevated due to the combination of these factors."
+  },
+  {
+    "email": "You have been selected for our 50% discount on our website. visit the\r\nwebsite to claim this offer: https://www.amazon.in\r\n\r\nwe have also attached the brocher for the claiming process\r\n",
+    "url_analysis": {
+      "https://www.amazon.in": {
+        "data": {
+          "id": "da86230024e8e8b3f50f2024d89b7057f411e46b8eb9e0e9b2905104cc1b3a92",
+          "type": "url",
+          "links": {
+            "self": "https://www.virustotal.com/api/v3/urls/da86230024e8e8b3f50f2024d89b7057f411e46b8eb9e0e9b2905104cc1b3a92"
+          },
+          "attributes": {
+            "last_http_response_headers": {
+              "x-frame-options": "SAMEORIGIN",
+              "x-xss-protection": "1;",
+              "x-amz-rid": "YV02EPNX5YZ4DAJQ6CK1",
+              "alt-svc": "h3=\":443\"; ma=86400",
+              "x-ua-compatible": "IE=edge",
+              "cache-control": "no-cache\nno-transform",
+              "content-language": "en-IN",
+              "content-security-policy": "upgrade-insecure-requests;report-uri https://metrics.media-amazon.com/",
+              "content-type": "text/html;charset=UTF-8",
+              "server": "Server",
+              "pragma": "no-cache",
+              "accept-ch-lifetime": "86400",
+              "strict-transport-security": "max-age=47474747; includeSubDomains; preload",
+              "accept-ch": "ect,rtt,downlink,device-memory,sec-ch-device-memory,viewport-width,sec-ch-viewport-width,dpr,sec-ch-dpr,sec-ch-ua-full-version-list,sec-ch-ua-platform,sec-ch-ua-platform-version",
+              "content-security-policy-report-only": "default-src 'self' blob: https: data: mediastream: 'unsafe-eval' 'unsafe-inline';report-uri https://metrics.media-amazon.com/",
+              "x-content-type-options": "nosniff",
+              "x-amz-cf-id": "LFCUul-eOURb9X3vINtWC-1asJb0N5Mu1YbHfIve7cm7efsmQ0bBmw==",
+              "date": "Wed, 15 Apr 2026 10:11:06 GMT",
+              "vary": "Content-Type,X-Amazon-Wtm-Tag-OPF-IN-ENV-VAR-LRA,X-Amazon-Wtm-Tag-OPF-IN-ENV-VAR-DP-LRA,Accept-Encoding,User-Agent",
+              "x-cache": "Miss from cloudfront",
+              "expires": "-1",
+              "content-encoding": "gzip",
+              "via": "1.1 ee7fec9396cfd57a35094b47cf52be30.cloudfront.net (CloudFront)",
+              "x-amz-cf-pop": "IAD61-P9"
+            },
+            "threat_names": [],
+            "last_analysis_stats": {
+              "malicious": 0,
+              "suspicious": 0,
+              "undetected": 31,
+              "harmless": 64,
+              "timeout": 0
+            },
+            "times_submitted": 9727,
+            "last_submission_date": 1776247863,
+            "outgoing_links": [
+              "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js",
+              "https://images-na.ssl-images-amazon.com/images/I/31LYmZEs45L.js",
+              "https://m.media-amazon.com/images/I/21NZdO3uFtL.js?AUIClients/GWMMetricsJS#isWindowDisplay-true",
+              "https://m.media-amazon.com/images/I/01rGP6HIADL.js?AUIClients/GenericObservableJS",
+              "https://m.media-amazon.com/images/I/5177gl7fAnL._RC|11sflnhgXuL.js,11NBZ7Qe33L.js_.js?AUIClients/GWMWebAssets#1292407-T1.1174089-T1",
+              "https://m.media-amazon.com/images/I/61xJcNKKLXL.js?AUIClients/AmazonUIjQuery",
+              "https://m.media-amazon.com/images/I/11zuylp74DL._RC|11Y+5x+kkTL.js,518IfuPC2lL.js,115zbyk371L.js,11GgN1+C7hL.js,313nCSj5srL.js,01VRMV3FBdL.js,21NadQlXUWL.js,01E8f3KV-NL.js,11a7qqY8xXL.js,11aZNVRA-EL.js,51C4kaFbiAL.js,11J9B4cvO1L.js,11wb9K3sw0L.js,11BrgrMAHUL.js,11GPhx42StL.js,210X-JWUe-L.js,01Svfxfy8OL.js,61PVvkCJ5zL.js,01ikBbTAneL.js,31v298o2m6L.js,319aVrJ-hdL.js,31R7GWnfVoL.js,11F929pmpYL.js,31mosk8yNCL.js,01qkmZhGmAL.js,31rqCOnXDNL.js,011FfPwYqHL.js,21Xgf5G-ZWL.js,21ILzqwYe6L.js,21kN0q4IA-L.js,21HZlWnI+gL.js,11vb6P5C5AL.js,01NjPq-AshL.js_.js?AUIClients/AmazonUI#mobile.1362931-T1",
+              "https://m.media-amazon.com/images/I/517f0agMn-L.js?AUIClients/CardJsRuntimeBuzzCopyBuild",
+              "https://m.media-amazon.com/images/I/010ReP-mn8L.js?AUIClients/AmazonEmberModernFontAssets",
+              "https://m.media-amazon.com/images/I/0100CF15f2L.js?AUIClients/AmazonHomepageWindowDisplayAssets",
+              "https://m.media-amazon.com/images/I/31UFcfM2A7L.js?AUIClients/AmazonAnimationOrchestratorAssets#1298941-T1",
+              "https://m.media-amazon.com/images/I/41SLSZkzFmL.js?xcp",
+              "https://m.media-amazon.com/images/I/31iigvJrQGL._RC|31m9ki8XaeL.js_.js?xcp",
+              "https://m.media-amazon.com/images/I/11RxK55cpiL.js?xcp",
+              "https://m.media-amazon.com/images/I/91u1iWIbVEL.js?AUIClients/VideoJsCardsBuzz#language-en",
+              "https://m.media-amazon.com/images/I/013jnuQUGcL.js?xcp",
+              "https://m.media-amazon.com/images/I/01EaY7lhviL.js?xcp",
+              "https://m.media-amazon.com/images/I/51jC0T3AfxL._RC|4134jecY+uL.js_.js?AUIClients/NavMobileAssets-all#778344-T1.1280608-T1",
+              "https://m.media-amazon.com/images/I/01+pnQJuQ0L._RC|01JFYUQurFL.js_.js?AUIClients/InternationalCustomerPreferencesNavMobileAssets",
+              "https://m.media-amazon.com/images/I/31yCF4ftzxL.js?AUIClients/GlowToasterAssets#1253326-T1",
+              "https://m.media-amazon.com/images/I/01L9DFZcStL._RC|01kC46b9vjL.js,81lKcMPaPWL.js_.js?AUIClients/RetailSearchAutocompleteAssets#mobile.language-en.in",
+              "https://m.media-amazon.com/images/I/41MqCWSnwNL.js?AUIClients/AmazonWebAppAssets#in.333980-T1",
+              "https://m.media-amazon.com/images/I/01m0EuyLqIL.js?AUIClients/HokutoAssets",
+              "https://m.media-amazon.com/images/I/11UEOT4W+mL.js?xcp",
+              "https://m.media-amazon.com/images/I/31IWj-SgTLL._RC|31MVN4GXMZL.js_.js?xcp",
+              "https://m.media-amazon.com/images/I/11MgFhkox0L.js?xcp",
+              "https://m.media-amazon.com/images/I/61OSDwdbJ5L.js?xcp",
+              "https://m.media-amazon.com/images/I/81D2zNUXn-L._RC|31ScU9YhQuL.js,11HrgbepioL.js,41YfIHyEeoL.js_.js?AUIClients/QTipsMobileWebAssets#mobile.in.1299455-T1.1385801-T2.1362343-T1.1276174-T1",
+              "https://m.media-amazon.com/images/I/51O38waYPKL.js?AUIClients/AmazonLightsaberPageAssets#1279464-T1",
+              "https://m.media-amazon.com/images/I/21UP2PG9HiL.js?AUIClients/WebFlowIngressJs#mobile",
+              "https://m.media-amazon.com/images/I/81kCF8wuZEL.js?AUIClients/FWCIMAssets",
+              "https://m.media-amazon.com/images/G/31/gno/sprites/new-nav-sprite-global-1x_blueheaven-privacy._CB779320445_.png",
+              "https://m.media-amazon.com/images/I/A1Bpq-vBhyL.mp4",
+              "https://m.media-amazon.com/images/I/B1OD429kISL.mp4",
+              "https://m.media-amazon.com/images/I/11pg4t84NwL._SR261,32_AC_FMpng_.png",
+              "https://m.media-amazon.com/images/I/61Tx04TMH5L._SX285_.jpg",
+              "https://m.media-amazon.com/images/I/31DCB+MTlrL._SR261,32_AC_FMpng_.png",
+              "https://m.media-amazon.com/images/I/71lsqGFHvaL._SX285_.jpg",
+              "https://m.media-amazon.com/images/I/31ChEZULfoL._SR261,32_AC_FMpng_.png",
+              "https://m.media-amazon.com/images/I/71E6Rg3HmbL._SX285_.jpg",
+              "https://m.media-amazon.com/images/I/614riDluHmL._SR285,456_.jpg",
+              "https://m.media-amazon.com/images/I/D1xog1-uKAL.mp4",
+              "https://m.media-amazon.com/images/I/31nuWTjapPL._SR261,32_AC_FMpng_.png",
+              "https://m.media-amazon.com/images/I/61puPx1sgeL._SX285_.jpg",
+              "https://m.media-amazon.com/images/I/41vbsm3NUOL._SR261,32_AC_FMpng_.png",
+              "https://m.media-amazon.com/images/I/61zN7wVda0L._SX285_.jpg",
+              "https://m.media-amazon.com/images/I/61Lcyw6M-BL._SX285_.jpg",
+              "https://m.media-amazon.com/images/I/71e6VIMm7VL._SX285_.jpg",
+              "https://m.media-amazon.com/images/I/31oTH2FQLCL._SR313,57_AC_FMpng_.png",
+              "https://m.media-amazon.com/images/I/61ydowKcYPL._SX285_.jpg",
+              "https://m.media-amazon.com/images/I/01nDWQ5XCSL._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/21indzy0n1L._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/41HYVt9XG0L._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/21QHbXU96AL._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/01SZyAw7k7L._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/11dcI5r-U6L._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/21xXjwTSVIL._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/312t+JcSoDL._SX50_SY50_.jpg",
+              "https://m.media-amazon.com/images/I/21CJrl0e7+L._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/31ICLWjUdHL._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/21-5XYasLKL._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/11V7tDHLoyL._SX50_SY50_.jpg",
+              "https://m.media-amazon.com/images/I/118lbTsRMWL._SX50_SY50_.jpg",
+              "https://m.media-amazon.com/images/I/215lv40sqoL._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/216GdZKe1rL._SX50_SY50_.png",
+              "https://m.media-amazon.com/images/I/61JwxHbd-FL._SR70,70_FMpng_.png",
+              "https://m.media-amazon.com/images/I/61QQLWXaCQL._SR70,70_FMpng_.png",
+              "https://m.media-amazon.com/images/I/71GpF1MCqTL._SR140,140_.png",
+              "https://m.media-amazon.com/images/I/71IVOzvqfyL._SR140,140_.png",
+              "https://m.media-amazon.com/images/I/61ikuMEKEeL._SR140,140_.png",
+              "https://m.media-amazon.com/images/I/71VEnJgCM+L._SR140,140_.png",
+              "https://m.media-amazon.com/images/I/51NQx6PjgRL._SR140,140_.jpg",
+              "https://m.media-amazon.com/images/I/41ps6v5jlaL._SR140,140_.jpg",
+              "https://m.media-amazon.com/images/I/411sRszlKWL._SR140,140_.jpg",
+              "https://m.media-amazon.com/images/I/41hRU440D7L._SR140,140_.jpg",
+              "https://m.media-amazon.com/images/I/61QxRRnUcFL._SR140,140_.png",
+              "https://m.media-amazon.com/images/I/71U4qTbTxzL._SR140,140_.png",
+              "https://m.media-amazon.com/images/I/71Gcn9gx4WL._SR140,140_.png",
+              "https://m.media-amazon.com/images/I/711MwxVH++L._SR140,140_.png",
+              "https://m.media-amazon.com/images/I/816eXKgDfIL._AC_SS152_.jpg",
+              "https://m.media-amazon.com/images/I/61tOpH+vvXL._AC_SS152_.jpg",
+              "https://m.media-amazon.com/images/I/61BK9C57DLL._AC_SS152_.jpg",
+              "https://m.media-amazon.com/images/I/71C-4KfI62L._AC_SS152_.jpg",
+              "https://m.media-amazon.com/images/I/61GX16HRoFL._AC_SS152_.jpg",
+              "https://m.media-amazon.com/images/I/81fBDyL6+KL._AC_SS152_.jpg",
+              "https://m.media-amazon.com/images/I/61Yx9uPS7dL._AC_SS152_.jpg",
+              "https://m.media-amazon.com/images/I/51oOuDkGSuL._AC_SS152_.jpg",
+              "https://unagi.amazon.in/1/events/com.amazon.csm.nexusclient.prod"
+            ],
+            "last_modification_date": 1776247923,
+            "total_votes": {
+              "harmless": 1,
+              "malicious": 0
+            },
+            "last_http_response_content_sha256": "bde2627809cba638d8bc2ffc1d090101ce3c66bbd8054ca984da85ece5c3f941",
+            "html_meta": {
+              "google": [
+                "nositelinkssearchbox"
+              ],
+              "description": [
+                "Amazon.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes and e-Gift Cards. Free Shipping & Cash on Delivery Available."
+              ],
+              "anti-csrftoken-a2z": [
+                "hC/ESsnYsyRg6im5CBgM23KRxI84HoyE+dcpJBENI9NGAAAAAGnfZDxlNGIyYWE2MC0xZDg2LTQwNWUtYmM5Yy1lMTFmNGE0N2U2ZTE=",
+                "hC/ESsnYsyRg6im5CBgM23KRxI84HoyE+dcpJBENI9NGAAAAAGnfZDxlNGIyYWE2MC0xZDg2LTQwNWUtYmM5Yy1lMTFmNGE0N2U2ZTE=",
+                "hC/ESsnYsyRg6im5CBgM23KRxI84HoyE+dcpJBENI9NGAAAAAGnfZDxlNGIyYWE2MC0xZDg2LTQwNWUtYmM5Yy1lMTFmNGE0N2U2ZTE=",
+                "hC/ESsnYsyRg6im5CBgM23KRxI84HoyE+dcpJBENI9NGAAAAAGnfZDxlNGIyYWE2MC0xZDg2LTQwNWUtYmM5Yy1lMTFmNGE0N2U2ZTE=",
+                "hC/ESsnYsyRg6im5CBgM23KRxI84HoyE+dcpJBENI9NGAAAAAGnfZDxlNGIyYWE2MC0xZDg2LTQwNWUtYmM5Yy1lMTFmNGE0N2U2ZTE=",
+                "hC/ESsnYsyRg6im5CBgM23KRxI84HoyE+dcpJBENI9NGAAAAAGnfZDxlNGIyYWE2MC0xZDg2LTQwNWUtYmM5Yy1lMTFmNGE0N2U2ZTE=",
+                "hC/ESsnYsyRg6im5CBgM23KRxI84HoyE+dcpJBENI9NGAAAAAGnfZDxlNGIyYWE2MC0xZDg2LTQwNWUtYmM5Yy1lMTFmNGE0N2U2ZTE=",
+                "hC/ESsnYsyRg6im5CBgM23KRxI84HoyE+dcpJBENI9NGAAAAAGnfZDxlNGIyYWE2MC0xZDg2LTQwNWUtYmM5Yy1lMTFmNGE0N2U2ZTE="
+              ],
+              "msvalidate.01": [
+                "3C8D6512B1E530046DE0569BA27093F3"
+              ],
+              "viewport": [
+                "width=device-width, maximum-scale=2, minimum-scale=1, initial-scale=1, shrink-to-fit=no"
+              ],
+              "og:description": [
+                "Amazon.in: Online Shopping India - Buy mobiles, laptops, cameras, books, watches, apparel, shoes and e-Gift Cards. Free Shipping & Cash on Delivery Available."
+              ],
+              "keywords": [
+                "Amazon.in, Amazon, Online Shopping, online shopping india, india shopping online, amazon india, amazn, buy online, buy mobiles online, buy books online, buy movie dvd's online, kindle, kindle fire hd, kindle e-readers, ebooks, computers, laptop, toys, trimmers, watches, fashion jewellery, home, kitchen, small appliances, beauty, Sports, Fitness & Outdoors"
+              ],
+              "google-site-verification": [
+                "Mc0MhJmYYN5dQXBRLIm1dsE6oaGzI2lXPUVD-VPiKnA"
+              ],
+              "fb:app_id": [
+                "164734381262"
+              ],
+              "flow-closure-id": [
+                "1776247552"
+              ],
+              "theme-color": [
+                "#131921"
+              ],
+              "og:image": [
+                "https://m.media-amazon.com/images/I/51HCHFclmmL.jpg"
+              ],
+              "encrypted-slate-token": [
+                "AnYx13hk4Z8mtWf7O3lGAfQNTIuqhuT1KrgRcCKYzJ2uVkf6WIMGDG0vqxuiDVIktNuwZdF0khW0qfOVfhGFQHrJfFnNplQL+nvQ1LKDjXzMZgg10nNkfUuTrelnPFoG5QNdgLCV3i+z+kx/LTp/WAG47xOFXR3XzE55w7ynNpEBiZUB9SUGWTVvLYEASnElAIYKyV3Gz+2eQgXPijbmyM4nUcKK3z0TFtP/WyhoBwCJusYLXISV+KR7gAiKV0e1dF69DnPUUJWZiTwUcpzAUnS+x/B2IbjDNA=="
+              ]
+            },
+            "last_http_response_code": 200,
+            "last_http_response_content_length": 1092929,
+            "url": "https://www.amazon.in/",
+            "last_final_url": "https://www.amazon.in/",
+            "reputation": 1,
+            "last_analysis_results": {
+              "Acronis": {
+                "method": "blacklist",
+                "engine_name": "Acronis",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Abusix": {
+                "method": "blacklist",
+                "engine_name": "Abusix",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "ADMINUSLabs": {
+                "method": "blacklist",
+                "engine_name": "ADMINUSLabs",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Lionic": {
+                "method": "blacklist",
+                "engine_name": "Lionic",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Criminal IP": {
+                "method": "blacklist",
+                "engine_name": "Criminal IP",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "AILabs (MONITORAPP)": {
+                "method": "blacklist",
+                "engine_name": "AILabs (MONITORAPP)",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "AlienVault": {
+                "method": "blacklist",
+                "engine_name": "AlienVault",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "alphaMountain.ai": {
+                "method": "blacklist",
+                "engine_name": "alphaMountain.ai",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "AlphaSOC": {
+                "method": "blacklist",
+                "engine_name": "AlphaSOC",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Antiy-AVL": {
+                "method": "blacklist",
+                "engine_name": "Antiy-AVL",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "ArcSight Threat Intelligence": {
+                "method": "blacklist",
+                "engine_name": "ArcSight Threat Intelligence",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "AutoShun": {
+                "method": "blacklist",
+                "engine_name": "AutoShun",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "benkow.cc": {
+                "method": "blacklist",
+                "engine_name": "benkow.cc",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Bfore.Ai PreCrime": {
+                "method": "blacklist",
+                "engine_name": "Bfore.Ai PreCrime",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "BitDefender": {
+                "method": "blacklist",
+                "engine_name": "BitDefender",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Bkav": {
+                "method": "blacklist",
+                "engine_name": "Bkav",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "BlockList": {
+                "method": "blacklist",
+                "engine_name": "BlockList",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Blueliv": {
+                "method": "blacklist",
+                "engine_name": "Blueliv",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Certego": {
+                "method": "blacklist",
+                "engine_name": "Certego",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "ChainPatrol": {
+                "method": "blacklist",
+                "engine_name": "ChainPatrol",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Chong Lua Dao": {
+                "method": "blacklist",
+                "engine_name": "Chong Lua Dao",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "CINS Army": {
+                "method": "blacklist",
+                "engine_name": "CINS Army",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Snort IP sample list": {
+                "method": "blacklist",
+                "engine_name": "Snort IP sample list",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Cluster25": {
+                "method": "blacklist",
+                "engine_name": "Cluster25",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "CMC Threat Intelligence": {
+                "method": "blacklist",
+                "engine_name": "CMC Threat Intelligence",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Xcitium Verdict Cloud": {
+                "method": "blacklist",
+                "engine_name": "Xcitium Verdict Cloud",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "CRDF": {
+                "method": "blacklist",
+                "engine_name": "CRDF",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "CSIS Security Group": {
+                "method": "blacklist",
+                "engine_name": "CSIS Security Group",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Cyan": {
+                "method": "blacklist",
+                "engine_name": "Cyan",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Cyble": {
+                "method": "blacklist",
+                "engine_name": "Cyble",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "CyRadar": {
+                "method": "blacklist",
+                "engine_name": "CyRadar",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "desenmascara.me": {
+                "method": "blacklist",
+                "engine_name": "desenmascara.me",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "DNS8": {
+                "method": "blacklist",
+                "engine_name": "DNS8",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Dr.Web": {
+                "method": "blacklist",
+                "engine_name": "Dr.Web",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Emsisoft": {
+                "method": "blacklist",
+                "engine_name": "Emsisoft",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Ermes": {
+                "method": "blacklist",
+                "engine_name": "Ermes",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "ESET": {
+                "method": "blacklist",
+                "engine_name": "ESET",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "ESTsecurity": {
+                "method": "blacklist",
+                "engine_name": "ESTsecurity",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "EmergingThreats": {
+                "method": "blacklist",
+                "engine_name": "EmergingThreats",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Fortinet": {
+                "method": "blacklist",
+                "engine_name": "Fortinet",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "G-Data": {
+                "method": "blacklist",
+                "engine_name": "G-Data",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Google Safebrowsing": {
+                "method": "blacklist",
+                "engine_name": "Google Safebrowsing",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "GCP Abuse Intelligence": {
+                "method": "blacklist",
+                "engine_name": "GCP Abuse Intelligence",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "GreenSnow": {
+                "method": "blacklist",
+                "engine_name": "GreenSnow",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "GreyNoise": {
+                "method": "blacklist",
+                "engine_name": "GreyNoise",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Gridinsoft": {
+                "method": "blacklist",
+                "engine_name": "Gridinsoft",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Guardpot": {
+                "method": "blacklist",
+                "engine_name": "Guardpot",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Heimdal Security": {
+                "method": "blacklist",
+                "engine_name": "Heimdal Security",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Hunt.io Intelligence": {
+                "method": "blacklist",
+                "engine_name": "Hunt.io Intelligence",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "IPsum": {
+                "method": "blacklist",
+                "engine_name": "IPsum",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Juniper Networks": {
+                "method": "blacklist",
+                "engine_name": "Juniper Networks",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Kaspersky": {
+                "method": "blacklist",
+                "engine_name": "Kaspersky",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Lumu": {
+                "method": "blacklist",
+                "engine_name": "Lumu",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Malwared": {
+                "method": "blacklist",
+                "engine_name": "Malwared",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "MalwareURL": {
+                "method": "blacklist",
+                "engine_name": "MalwareURL",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "MalwarePatrol": {
+                "method": "blacklist",
+                "engine_name": "MalwarePatrol",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "malwares.com URL checker": {
+                "method": "blacklist",
+                "engine_name": "malwares.com URL checker",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Mimecast": {
+                "method": "blacklist",
+                "engine_name": "Mimecast",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Netcraft": {
+                "method": "blacklist",
+                "engine_name": "Netcraft",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "OpenPhish": {
+                "method": "blacklist",
+                "engine_name": "OpenPhish",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "0xSI_f33d": {
+                "method": "blacklist",
+                "engine_name": "0xSI_f33d",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Phishing Database": {
+                "method": "blacklist",
+                "engine_name": "Phishing Database",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "PhishFort": {
+                "method": "blacklist",
+                "engine_name": "PhishFort",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "PhishLabs": {
+                "method": "blacklist",
+                "engine_name": "PhishLabs",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Phishtank": {
+                "method": "blacklist",
+                "engine_name": "Phishtank",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "PREBYTES": {
+                "method": "blacklist",
+                "engine_name": "PREBYTES",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "PrecisionSec": {
+                "method": "blacklist",
+                "engine_name": "PrecisionSec",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Quick Heal": {
+                "method": "blacklist",
+                "engine_name": "Quick Heal",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Quttera": {
+                "method": "blacklist",
+                "engine_name": "Quttera",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Rising": {
+                "method": "blacklist",
+                "engine_name": "Rising",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "SafeToOpen": {
+                "method": "blacklist",
+                "engine_name": "SafeToOpen",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Sangfor": {
+                "method": "blacklist",
+                "engine_name": "Sangfor",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Sansec eComscan": {
+                "method": "blacklist",
+                "engine_name": "Sansec eComscan",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Scantitan": {
+                "method": "blacklist",
+                "engine_name": "Scantitan",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "SCUMWARE.org": {
+                "method": "blacklist",
+                "engine_name": "SCUMWARE.org",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Seclookup": {
+                "method": "blacklist",
+                "engine_name": "Seclookup",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "SOCRadar": {
+                "method": "blacklist",
+                "engine_name": "SOCRadar",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "Sophos": {
+                "method": "blacklist",
+                "engine_name": "Sophos",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Spam404": {
+                "method": "blacklist",
+                "engine_name": "Spam404",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "StopForumSpam": {
+                "method": "blacklist",
+                "engine_name": "StopForumSpam",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Sucuri SiteCheck": {
+                "method": "blacklist",
+                "engine_name": "Sucuri SiteCheck",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "securolytics": {
+                "method": "blacklist",
+                "engine_name": "securolytics",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "ThreatHive": {
+                "method": "blacklist",
+                "engine_name": "ThreatHive",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "LevelBlue": {
+                "method": "blacklist",
+                "engine_name": "LevelBlue",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "URLhaus": {
+                "method": "blacklist",
+                "engine_name": "URLhaus",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "URLQuery": {
+                "method": "blacklist",
+                "engine_name": "URLQuery",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Viettel Threat Intelligence": {
+                "method": "blacklist",
+                "engine_name": "Viettel Threat Intelligence",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "VIPRE": {
+                "method": "blacklist",
+                "engine_name": "VIPRE",
+                "category": "undetected",
+                "result": "unrated"
+              },
+              "ViriBack": {
+                "method": "blacklist",
+                "engine_name": "ViriBack",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "VX Vault": {
+                "method": "blacklist",
+                "engine_name": "VX Vault",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Webroot": {
+                "method": "blacklist",
+                "engine_name": "Webroot",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Forcepoint ThreatSeeker": {
+                "method": "blacklist",
+                "engine_name": "Forcepoint ThreatSeeker",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "Yandex Safebrowsing": {
+                "method": "blacklist",
+                "engine_name": "Yandex Safebrowsing",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "ZeroCERT": {
+                "method": "blacklist",
+                "engine_name": "ZeroCERT",
+                "category": "harmless",
+                "result": "clean"
+              },
+              "ZeroFox": {
+                "method": "blacklist",
+                "engine_name": "ZeroFox",
+                "category": "undetected",
+                "result": "unrated"
+              }
+            },
+            "title": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+            "trackers": {
+              "Amazon Associates": [
+                {
+                  "url": "https://c.amazon-adsystem.com/bao-csm/forensics/a9-tq-forensics.min.js",
+                  "timestamp": 1776247863
+                }
+              ]
+            },
+            "categories": {
+              "BitDefender": "onlineshop",
+              "Xcitium Verdict Cloud": "shopping",
+              "Sophos": "online shopping",
+              "Forcepoint ThreatSeeker": "shopping"
+            },
+            "first_submission_date": 1370423483,
+            "last_analysis_date": 1776247863,
+            "tld": "in",
+            "tags": [
+              "third-party-cookies",
+              "trackers",
+              "iframes",
+              "external-resources"
+            ]
+          }
+        }
+      }
+    },
+    "file_analysis": {
+      "046433abc1e4250f2ec25841e57e7ca863e7db1dd2166af830d3344de2fe3d03": {}
+    },
+    "final": "**MALICIOUS**\n\n**Reasoning:**\n\nWhile the provided URL scan for `https://www.amazon.in` shows it as clean and harmless, the overall context of the email strongly indicates a phishing attempt. The high-risk factors identified \u2013 unsolicited offer, generic greeting, urgency/enticement, a suspicious attachment (\"brocher\"), and grammatical errors \u2013 are all classic hallmarks of phishing. The fact that the actual link destination cannot be verified without hovering over it is a critical security concern, as phishers often use legitimate-looking domains to mask malicious URLs. The presence of an attachment for claiming an offer is a significant red flag, as attachments are a common vector for malware distribution. Therefore, despite the clean URL scan, the overwhelming indicators of a phishing scheme necessitate a MALICIOUS verdict to prioritize user safety. The attachment, in particular, remains a significant unknown risk."
+  }
+]
