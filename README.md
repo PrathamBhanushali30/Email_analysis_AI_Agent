@@ -113,7 +113,7 @@ graph TD
 ```
 ---
 
-### 🛠️ Technology Stack
+## 🛠️ Technology Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -128,7 +128,7 @@ graph TD
 
 ---
 
-### 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 
@@ -154,15 +154,15 @@ Email_analysis_AI_Agent/
 ---
 
 
-### ⚡ Quick Start
+## ⚡ Quick Start
 
-## 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository
 ```code
 git clone https://github.com/PrathamBhanushali30/Email_analysis_AI_Agent.git
 cd Email_analysis_AI_Agent
 ```
 
-## 2️⃣ Create a Virtual Environment
+### 2️⃣ Create a Virtual Environment
 windows:
 ```code
 python -m venv .venv
@@ -174,12 +174,12 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-## 3️⃣ Install Dependencies
+### 3️⃣ Install Dependencies
 ```code
 pip install crewai langchain-google-genai google-generativeai python-dotenv requests streamlit
 ```
 
-## 4️⃣ Configuration
+### 4️⃣ Configuration
 
 Create a .env file in the project root:
 ```code
@@ -195,7 +195,7 @@ ALERT_EMAIL=<security-alert-recipient>
 
 ---
 
-### ▶️ Running the Agent
+## ▶️ Running the Agent
 
 Start the continuous email-monitoring system:
 ```code
@@ -208,7 +208,7 @@ The agent runs continuously (checking every ~60 seconds):
 ---
 
 
-### 📊 Launch the SOC Dashboard
+## 📊 Launch the SOC Dashboard
 
 In a new terminal window, run:
 ```code
@@ -219,7 +219,7 @@ streamlit run dashboard.py
 ---
 
 
-### 🗺️ Roadmap
+## 🗺️ Roadmap
 
 
 [x] Phase 1 — Core Engine: Gmail monitoring, URL/Attachment extraction, VirusTotal integration, CrewAI agents, Gemini LLM, Streamlit dashboard.
@@ -237,7 +237,7 @@ streamlit run dashboard.py
 ---
 
 
-### 🔒 Production Security Considerations
+## 🔒 Production Security Considerations
 
 This repository is currently a prototype/research implementation. Before production deployment, consider implementing:
 
@@ -257,7 +257,7 @@ This repository is currently a prototype/research implementation. Before product
 
 
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 
 *M.Tech — Artificial Intelligence & Data Science*
 
@@ -266,6 +266,7 @@ This repository is currently a prototype/research implementation. Before product
 Areas of Interest:
 > `Cybersecurity` • `SOC Automation` • `AI/ML Security` • `Threat Intelligence` • `Phishing Detection` • `Malware Analysis`
 
+---
 
 ## 🛡️ Built for Cybersecurity Research & AI-Powered SOC Automation
 
