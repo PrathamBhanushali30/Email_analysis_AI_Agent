@@ -153,8 +153,40 @@ Email_analysis_AI_Agent/
 ### ⚡ Quick Start
 
 ## 1️⃣ Clone the Repository
-
 ```code
-git clone <your-repository-url>
+git clone https://github.com/PrathamBhanushali30/Email_analysis_AI_Agent.git
 cd Email_analysis_AI_Agent
+```
+
+## 2️⃣ Create a Virtual Environment
+windows:
+```code
+python -m venv .venv
+.venv\Scripts\activate
+```
+Linux/macOS: 
+```code
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+## 3️⃣ Install Dependencies
+```code
+pip install crewai langchain-google-genai google-generativeai python-dotenv requests streamlit
+```
+
+## 4️⃣ Configuration
+
+Create a .env file in the project root:
+```code
+GOOGLE_API_KEY=<your-google-gemini-api-key>
+VT_API_KEY=<your-virustotal-api-key>
+
+EMAIL_USER=<your-gmail-address>
+EMAIL_PASS=<your-gmail-app-password>
+ALERT_EMAIL=<security-alert-recipient>
+```
+
+```text
+⚠️ SECURITY WARNING: NEVER commit your .env file. Add .env to your .gitignore. If credentials were previously committed or shared publicly, rotate them immediately.
 ```
