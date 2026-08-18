@@ -112,7 +112,7 @@ graph TD
 
 ```
 
-🛠️ Technology Stack
+### 🛠️ Technology Stack
 
 | Layer | Technology |
 |-------|------------|
@@ -124,3 +124,37 @@ graph TD
 | 📊 Dashboard | Streamlit |
 | 🚨 Alerting | SMTP |
 | 🔐 Hashing | SHA-256 (hashlib) |
+
+
+### 📁 Project Structure
+
+```text
+
+Email_analysis_AI_Agent/
+├── 🤖 agents.py              # CrewAI agent definitions
+├── 🚨 alert.py               # SMTP alerting
+├── 📎 attachment_handler.py  # Attachment extraction + SHA-256 hashing
+├── 📊 dashboard.py           # Streamlit SOC dashboard
+├── 🔗 email_utils.py         # URL extraction utilities
+├── 📧 gmail_fetcher.py       # Gmail IMAP collection
+├── 🧠 llm_wrapper.py         # Google Gemini integration
+├── 🎯 main_agent.py          # Main AI analysis orchestration
+├── ▶️ run.py                 # Continuous monitoring loop
+├── 📋 tasks.py               # CrewAI task definitions
+├── 🔎 threat_intel.py        # VirusTotal integration
+├── 🧪 vt_test.py             # VirusTotal testing utility
+├── 📎 attachments/           # Locally extracted attachments
+├── 📝 logs.json              # Analysis history
+├── 🔐 .env                   # Local secrets/configuration
+└── 📖 README.md
+
+```
+
+### ⚡ Quick Start
+
+## 1️⃣ Clone the Repository
+
+```code
+git clone <your-repository-url>
+cd Email_analysis_AI_Agent
+```
