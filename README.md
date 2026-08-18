@@ -111,6 +111,7 @@ graph TD
     R --> S["📊 Streamlit SOC Dashboard"]
 
 ```
+---
 
 ### 🛠️ Technology Stack
 
@@ -125,6 +126,7 @@ graph TD
 | 🚨 Alerting | SMTP |
 | 🔐 Hashing | SHA-256 (hashlib) |
 
+---
 
 ### 📁 Project Structure
 
@@ -149,6 +151,7 @@ Email_analysis_AI_Agent/
 └── 📖 README.md
 
 ```
+---
 
 ### ⚡ Quick Start
 
@@ -189,6 +192,7 @@ ALERT_EMAIL=<security-alert-recipient>
 
 > *⚠️ SECURITY WARNING: NEVER commit your .env file. Add .env to your .gitignore. If credentials were previously committed or shared publicly, rotate them immediately.*
 
+---
 
 ### ▶️ Running the Agent
 
@@ -199,3 +203,13 @@ python run.py
 
 The agent runs continuously (checking every ~60 seconds):
 > `Checks Gmail` ➔ `Finds unread messages` ➔ `Analyzes email` ➔ `Scans URLs` ➔ `Hashes attachments` ➔ `Queries VirusTotal` ➔ `Runs CrewAI agents` ➔ `Generates SOC verdict` ➔ `Saves result` ➔ `Sends alert if required`
+
+---
+
+### 📊 Launch the SOC Dashboard
+<br>
+In a new terminal window, run:
+```code
+streamlit run dashboard.py
+```
+> This launches a web UI displaying analyzed emails, URL/File intelligence, AI analysis, and final SOC verdicts loaded from `logs.json`.
